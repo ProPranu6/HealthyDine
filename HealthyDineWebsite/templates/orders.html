@@ -1,0 +1,117 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'orders_style.css' %}">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+
+<div class="shopping-cart">
+
+  <div class="column-labels">
+    <label class="product-image">Image</label>
+    <label class="product-details">Product</label>
+    <label class="product-price">Price</label>
+    <label class="product-quantity">Quantity</label>
+    <!--<label class="product-removal">Remove</label>-->
+    <label class="product-line-price">Total</label>
+  </div>
+
+{% for fdo in food_info %}
+  <div class="product">
+    <div class="product-image">
+      <img src="{% static fdo.image %}">
+    </div>
+    <div class="product-details">
+      <div class="product-title">{{fdo.name}}</div>
+      <p class="product-description">Carbohydrates : {{fdo.carbs}}</br>Proteins : {{fdo.proteins}}</br>Fats : {{fdo.fats}}</br>KeyIngredients:{{fdo.keying1}}|{{fdo.keying2}}|{{fdo.keying3}}|{{fdo.keying4}}|{{fdo.keying5}}</p>
+    </div>
+    <div class="product-price">12.99</div>
+    <div class="product-quantity">
+      <input type="number" value="{{fdo.quant}}" min="0" data-url="{% url 'cart-additions' %}" food_id='{{fdo.id}}'>
+    </div>
+    <!--<div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>-->
+    <div class="product-line-price">25.98</div>
+</br>
+
+  </div>
+{% endfor %}
+
+
+  <div class="totals">
+    <div class="totals-item">
+      <label>Subtotal</label>
+      <div class="totals-value" id="cart-subtotal">0</div>
+    </div>
+    <div class="totals-item">
+      <label>Tax (5%)</label>
+      <div class="totals-value" id="cart-tax">0</div>
+    </div>
+    <div class="totals-item">
+      <label>Shipping</label>
+      <div class="totals-value" id="cart-shipping">0</div>
+    </div>
+    <div class="totals-item totals-item-total">
+      <label>Grand Total</label>
+      <div class="totals-value" id="cart-total">0</div>
+    </div>
+  </div>
+      
+      <button class="checkout" orders-url="{% url 'cart-confirmations' %}">Checkout</button>
+
+</div>
+<br> <br>
+<h1>Previous Orders</h1>
+<div class="shopping-cart">
+  <div class="column-labels">
+    <label class="product-image">Image</label>
+    <label class="product-details">Product</label>
+    <!--<label class="product-price">Price</label>-->
+    <label class="product-quantity">Feedback</label>
+  
+  </div>
+{% for fdo in food_review_info %}
+  <div class="order">
+
+    <div class="product-image">
+      <img src="{% static fdo.image %}">
+    </div>
+    <div class="product-details">
+      <div class="product-title">{{fdo.name}}</div>
+      <p class="product-description">Carbohydrates : {{fdo.carbs}} cal Proteins : {{fdo.proteins}} cal Fats : {{fdo.fats}} cal </br>KeyIngredients:{{fdo.keying1}}|{{fdo.keying2}}|{{fdo.keying3}}|{{fdo.keying4}}|{{fdo.keying5}}</p>
+    </div>
+   <!-- <div class="product-price">45.99</div>-->
+    <div class="">
+      <!--<div class="rate">
+        <input type="radio" id="star5" name="{{fdo.id}}" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="{{fdo.id}}" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="{{fdo.id}}" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="{{fdo.id}}" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="{{fdo.id}}" value="1" />
+        <label for="star1" title="text">1 star</label>
+      </div>-->
+      <textarea placeholder="Give an Integer Rating out of 5 OR Give a Descriptive Review" rows="4" cols="40" , name="{{fdo.id}}", value="null"></textarea>
+    </div>
+  </div>
+</br>
+</div>
+{% endfor %}
+<script src="{% static 'orders_script.js' %}"></script>
+
+</body>
+</html>

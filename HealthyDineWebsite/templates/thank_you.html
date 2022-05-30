@@ -1,0 +1,12 @@
+<html>
+<head><title>Signup Response</title></head>
+
+<script>
+         setTimeout(function(){
+            window.location.href = '{% url 'login' %}';
+         }, 2500);
+      </script>
+<body>
+<h1>Successfully Registered {{user_name}}!!</h1>
+</body>
+</html>

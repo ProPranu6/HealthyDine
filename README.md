@@ -25,5 +25,5 @@ Software Engineering Course Project
 ![alt text](https://github.com/propranu6/healthydine/blob/spotlight/Screenshot%20(23).png?raw=true)
 ![alt text](https://github.com/propranu6/healthydine/blob/spotlight/Screenshot%20(24).png?raw=true)
 ![alt text](https://github.com/propranu6/healthydine/blob/spotlight/Screenshot%20(25).png?raw=true)
-![alt text](https://github.com/propranu6/healthydine/blob/spotlight/Screenshot%20(26).png?raw=true)
+![alt text](https://github.com/propranu6/healthydine/blob/spotlight/Screenshot%20(27).png?raw=true)
 

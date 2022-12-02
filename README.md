@@ -2,7 +2,7 @@
 Software Engineering Course Project
 
 ##Introduction and our Mission
-![alt text](https://github.com/[propranu6]/[healthydine]/blob/[spotlight]/screenshot(17).png?raw=true)
+![alt text](https://github.com/[propranu6]/[healthydine]/blob/[spotlight]/Screenshot (17).png?raw=true)
 
 ##What is that We Do
 ![alt text](https://github.com/[propranu6]/[healthydine]/blob/[spotlight]/intro.jpg?raw=true)

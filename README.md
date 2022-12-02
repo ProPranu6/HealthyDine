@@ -1,5 +1,9 @@
 # HealthyDine
 Software Engineering Course Project
+![alt text](https://github.com/propranu6/healthydine/blob/spotlight/img1.png?raw=true)
+![alt text](https://github.com/propranu6/healthydine/blob/spotlight/img2.png?raw=true)
+![alt text](https://github.com/propranu6/healthydine/blob/spotlight/img3.png?raw=true)
+![alt text](https://github.com/propranu6/healthydine/blob/spotlight/img4.png?raw=true)
 
 ## Introduction and our Mission
 
@@ -20,9 +24,9 @@ Software Engineering Course Project
 ### Regular Users
 ![alt text](https://github.com/propranu6/healthydine/blob/spotlight/Screenshot%20(25).png?raw=true)
 
-## Algorithms and Look
+## Algorithms
 ![alt text](https://github.com/propranu6/healthydine/blob/spotlight/Screenshot%20(22).png?raw=true)
 ![alt text](https://github.com/propranu6/healthydine/blob/spotlight/Screenshot%20(23).png?raw=true)
 ![alt text](https://github.com/propranu6/healthydine/blob/spotlight/Screenshot%20(24).png?raw=true)
-![alt text](https://github.com/propranu6/healthydine/blob/spotlight/Screenshot%20(27).png?raw=true)
+
 

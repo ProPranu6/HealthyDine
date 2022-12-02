@@ -1,9 +1,9 @@
 # HealthyDine
 Software Engineering Course Project
-![alt text](https://github.com/propranu6/healthydine/blob/spotlight/img1.png?raw=true)
-![alt text](https://github.com/propranu6/healthydine/blob/spotlight/img2.png?raw=true)
-![alt text](https://github.com/propranu6/healthydine/blob/spotlight/img3.png?raw=true)
-![alt text](https://github.com/propranu6/healthydine/blob/spotlight/img4.png?raw=true)
+![alt text](https://github.com/propranu6/healthydine/blob/spotlight/img1.jpg?raw=true)
+![alt text](https://github.com/propranu6/healthydine/blob/spotlight/img2.jpg?raw=true)
+![alt text](https://github.com/propranu6/healthydine/blob/spotlight/img3.jpg?raw=true)
+![alt text](https://github.com/propranu6/healthydine/blob/spotlight/img4.jpg?raw=true)
 
 ## Introduction and our Mission
 
